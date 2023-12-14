@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e4e4e4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/*HEADER*/
+
+/*Menú*/
+
+header nav {
+  background-color: #0c949c;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar-brand img {
+  width: 4rem;
+}
+
+.dropdown-item {
+  background-color: #0c949c;
+  border: none;
+  color: white;
+}
+
+.dropdown-menu {
+  padding: 0;
+  border: none;
+}
+
+/*MAIN*/
+
+/*Carousel*/
+/* main div .carousel-item {
+  height: 100vh;
+}
+
+main div .carousel-item img {
+  height: 100%;
+  object-fit: cover;
+} */
+
+.card-principal img {
+  height: 100vh;
+  object-fit: cover;
+  filter: grayscale(1);
+  border-radius: 0;
+  border: transparent;
+}
+
+.card-principal-texto {
+  color: #8474a4;
+  font-size: 1.5rem;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  padding: 0.5rem 1.3rem;
+}
+
+/*Servicios*/
+
+.titulos-principales {
+  font-family: "Dancing Script", cursive;
+  color: #64544c;
+}
+.card-seccion-terapias {
+  height: 25rem;
+  color: #64544c;
+  border-radius: 2rem;
+  box-shadow: 9px 11px 12px 3px rgba(148, 148, 148, 0.78);
+}
+
+.card-seccion-terapias img {
+  height: 50%;
+}
+.btn-card {
+  border-radius: 10rem;
+}
+
+.flip-in-hor-bottom {
+  animation: flip-in-hor-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+/*Frase Uno*/
+
+blockquote {
+  font-size: 1.8rem;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  color: #8474a4;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+/*Info*/
+
+.container-constelaciones {
+  background-color: #ccacdc;
+  color: #64544c;
+}
+
+.container-tapping {
+  background-color: #e4e4e4;
+  color: #64544c;
+}
+
+.container-couseling {
+  background-color: #ccacdc;
+  color: #64544c;
+}
+
+/*Testimonios*/
+
+.carousel-experiencias {
+  height: 10rem;
+}
+
+.carousel-experiencias .carousel-item {
+  height: 11rem;
+  color: #64544c;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #0c949c;
+  color: white;
+  font-size: 1.1rem;
+}
+
+/*SOBRE NOSOTRAS*/
+
+.card-img-nosotras {
+  border-radius: 100px;
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  width: 50%;
+}
+
+.card-nosotras {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  color: #64544c;
+  margin-bottom: 2rem;
+}
+
+.parrafo-nosotras {
+  color: #64544c;
+}
+
+.icono-nosotras {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.icono-volver {
+  list-style: none;
+}
+
+.icono-volver a {
+  text-decoration: none;
+}
